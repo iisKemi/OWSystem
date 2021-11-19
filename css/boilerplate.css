@@ -223,19 +223,19 @@
   text-align: center;
 }
 
-/* Styles limited to boilerplate sheets */
-.boilerplate {
+/* Styles limited to owSystem sheets */
+.owSystem {
   /* ----------------------------------------- */
   /*  Items Lists                              */
   /* ----------------------------------------- */
-  /* Example style for Boilerplate (can be removed if not needed) */
+  /* Example style for OWSystem (can be removed if not needed) */
 }
 
-.boilerplate .item-form {
+.owSystem .item-form {
   font-family: "Roboto", sans-serif;
 }
 
-.boilerplate .sheet-header {
+.owSystem .sheet-header {
   -webkit-box-flex: 0;
   -ms-flex: 0 auto;
   flex: 0 auto;
@@ -255,7 +255,7 @@
   margin-bottom: 10px;
 }
 
-.boilerplate .sheet-header .profile-img {
+.owSystem .sheet-header .profile-img {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 100px;
   flex: 0 0 100px;
@@ -263,50 +263,50 @@
   margin-right: 10px;
 }
 
-.boilerplate .sheet-header .header-fields {
+.owSystem .sheet-header .header-fields {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
 }
 
-.boilerplate .sheet-header h1.charname {
+.owSystem .sheet-header h1.charname {
   height: 50px;
   padding: 0px;
   margin: 5px 0;
   border-bottom: 0;
 }
 
-.boilerplate .sheet-header h1.charname input {
+.owSystem .sheet-header h1.charname input {
   width: 100%;
   height: 100%;
   margin: 0;
 }
 
-.boilerplate .sheet-tabs {
+.owSystem .sheet-tabs {
   -webkit-box-flex: 0;
   -ms-flex: 0;
   flex: 0;
 }
 
-.boilerplate .sheet-body,
-.boilerplate .sheet-body .tab,
-.boilerplate .sheet-body .tab .editor {
+.owSystem .sheet-body,
+.owSystem .sheet-body .tab,
+.owSystem .sheet-body .tab .editor {
   height: 100%;
 }
 
-.boilerplate .tox .tox-editor-container {
+.owSystem .tox .tox-editor-container {
   background: #fff;
 }
 
-.boilerplate .tox .tox-edit-area {
+.owSystem .tox .tox-edit-area {
   padding: 0 8px;
 }
 
-.boilerplate .resource-label {
+.owSystem .resource-label {
   font-weight: bold;
 }
 
-.boilerplate .items-header {
+.owSystem .items-header {
   height: 28px;
   margin: 2px 0;
   padding: 0;
@@ -318,12 +318,12 @@
   font-weight: bold;
 }
 
-.boilerplate .items-header > * {
+.owSystem .items-header > * {
   font-size: 14px;
   text-align: center;
 }
 
-.boilerplate .items-header .item-name {
+.owSystem .items-header .item-name {
   font-weight: bold;
   padding-left: 5px;
   text-align: left;
@@ -332,7 +332,7 @@
   display: flex;
 }
 
-.boilerplate .items-list {
+.owSystem .items-list {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -341,13 +341,13 @@
   color: #444;
 }
 
-.boilerplate .items-list .item-list {
+.owSystem .items-list .item-list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.boilerplate .items-list .item-name {
+.owSystem .items-list .item-name {
   -webkit-box-flex: 2;
   -ms-flex: 2;
   flex: 2;
@@ -363,13 +363,13 @@
   display: flex;
 }
 
-.boilerplate .items-list .item-name h3, .boilerplate .items-list .item-name h4 {
+.owSystem .items-list .item-name h3, .owSystem .items-list .item-name h4 {
   margin: 0;
   white-space: nowrap;
   overflow-x: hidden;
 }
 
-.boilerplate .items-list .item-controls {
+.owSystem .items-list .item-controls {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -381,13 +381,13 @@
   justify-content: flex-end;
 }
 
-.boilerplate .items-list .item-controls a {
+.owSystem .items-list .item-controls a {
   font-size: 12px;
   text-align: center;
   margin: 0 6px;
 }
 
-.boilerplate .items-list .item {
+.owSystem .items-list .item {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -395,15 +395,15 @@
   border-bottom: 1px solid #c9c7b8;
 }
 
-.boilerplate .items-list .item:last-child {
+.owSystem .items-list .item:last-child {
   border-bottom: none;
 }
 
-.boilerplate .items-list .item .item-name {
+.owSystem .items-list .item .item-name {
   color: #191813;
 }
 
-.boilerplate .items-list .item .item-name .item-image {
+.owSystem .items-list .item .item-name .item-image {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 30px;
   flex: 0 0 30px;
@@ -413,14 +413,14 @@
   margin-right: 5px;
 }
 
-.boilerplate .items-list .item-prop {
+.owSystem .items-list .item-prop {
   text-align: center;
   border-left: 1px solid #c9c7b8;
   border-right: 1px solid #c9c7b8;
   font-size: 12px;
 }
 
-.boilerplate .items-list .items-header {
+.owSystem .items-list .items-header {
   height: 28px;
   margin: 2px 0;
   padding: 0;
@@ -432,32 +432,32 @@
   font-weight: bold;
 }
 
-.boilerplate .items-list .items-header > * {
+.owSystem .items-list .items-header > * {
   font-size: 12px;
   text-align: center;
 }
 
-.boilerplate .items-list .items-header .item-name {
+.owSystem .items-list .items-header .item-name {
   padding-left: 5px;
   text-align: left;
 }
 
-.boilerplate .item-formula {
+.owSystem .item-formula {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 200px;
   flex: 0 0 200px;
   padding: 0 8px;
 }
 
-.boilerplate .effects .item .effect-source,
-.boilerplate .effects .item .effect-duration,
-.boilerplate .effects .item .effect-controls {
+.owSystem .effects .item .effect-source,
+.owSystem .effects .item .effect-duration,
+.owSystem .effects .item .effect-controls {
   text-align: center;
   border-left: 1px solid #c9c7b8;
   border-right: 1px solid #c9c7b8;
   font-size: 12px;
 }
 
-.boilerplate .effects .item .effect-controls {
+.owSystem .effects .item .effect-controls {
   border: none;
 }

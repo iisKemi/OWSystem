@@ -1,13 +1,13 @@
 {
-  "name": "boilerplate",
-  "title": "Boilerplate",
-  "description": "The Boilerplate system for FoundryVTT!",
+  "name": "owSystem",
+  "title": "OWSystem",
+  "description": "The OWSystem system for FoundryVTT!",
   "version": "1.1.0",
   "minimumCoreVersion": "0.8.3",
   "compatibleCoreVersion": "0.8.6",
   "author": "Asacolips",
-  "esmodules": ["module/boilerplate.mjs"],
-  "styles": ["css/boilerplate.css"],
+  "esmodules": ["module/owSystem.mjs"],
+  "styles": ["css/owSystem.css"],
   "scripts": [],
   "packs": [],
   "languages": [
