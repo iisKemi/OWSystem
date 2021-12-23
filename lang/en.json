@@ -1,22 +1,22 @@
 {
-  "BOILERPLATE.AbilityStr": "Strength",
-  "BOILERPLATE.AbilityCon": "Constitution",
-  "BOILERPLATE.AbilityDex": "Dexterity",
-  "BOILERPLATE.AbilityInt": "Intelligence",
-  "BOILERPLATE.AbilityWis": "Wisdom",
-  "BOILERPLATE.AbilityCha": "Charisma",
+  "OWSYSTEM.AbilityStr": "Strength",
+  "OWSYSTEM.AbilityCon": "Constitution",
+  "OWSYSTEM.AbilityDex": "Dexterity",
+  "OWSYSTEM.AbilityInt": "Intelligence",
+  "OWSYSTEM.AbilityWis": "Wisdom",
+  "OWSYSTEM.AbilityCha": "Charisma",
 
-  "BOILERPLATE.AbilityStrAbbr": "str",
-  "BOILERPLATE.AbilityConAbbr": "con",
-  "BOILERPLATE.AbilityDexAbbr": "dex",
-  "BOILERPLATE.AbilityIntAbbr": "int",
-  "BOILERPLATE.AbilityWisAbbr": "wis",
-  "BOILERPLATE.AbilityChaAbbr": "cha",
+  "OWSYSTEM.AbilityStrAbbr": "str",
+  "OWSYSTEM.AbilityConAbbr": "con",
+  "OWSYSTEM.AbilityDexAbbr": "dex",
+  "OWSYSTEM.AbilityIntAbbr": "int",
+  "OWSYSTEM.AbilityWisAbbr": "wis",
+  "OWSYSTEM.AbilityChaAbbr": "cha",
 
-  "BOILERPLATE.EffectCreate": "Create Effect",
-  "BOILERPLATE.EffectToggle": "Toggle Effect",
-  "BOILERPLATE.EffectEdit": "Edit Effect",
-  "BOILERPLATE.EffectDelete": "Delete Effect",
+  "OWSYSTEM.EffectCreate": "Create Effect",
+  "OWSYSTEM.EffectToggle": "Toggle Effect",
+  "OWSYSTEM.EffectEdit": "Edit Effect",
+  "OWSYSTEM.EffectDelete": "Delete Effect",
 
-  "BOILERPLATE.Add": "Add"
+  "OWSYSTEM.Add": "Add"
 }
