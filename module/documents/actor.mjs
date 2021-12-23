@@ -63,7 +63,7 @@ export class OWSystemActor extends Actor {
 
     // Make modifications to data here. For example:
     const data = actorData.data;
-    data.xp = (data.cr * data.cr) * 100;
+    data.xp = (data.cr * data.cr) * 10;
   }
 
   /**

@@ -1,23 +1,23 @@
-export const BOILERPLATE = {};
+export const OWSYSTEM = {};
 
 /**
  * The set of Ability Scores used within the sytem.
  * @type {Object}
  */
- BOILERPLATE.abilities = {
-  "str": "BOILERPLATE.AbilityStr",
-  "dex": "BOILERPLATE.AbilityDex",
-  "con": "BOILERPLATE.AbilityCon",
-  "int": "BOILERPLATE.AbilityInt",
-  "wis": "BOILERPLATE.AbilityWis",
-  "cha": "BOILERPLATE.AbilityCha"
+ OWSYSTEM.abilities = {
+  "str": "OWSYSTEM.AbilityStr",
+  "dex": "OWSYSTEM.AbilityDex",
+  "con": "OWSYSTEM.AbilityCon",
+  "int": "OWSYSTEM.AbilityInt",
+  "wis": "OWSYSTEM.AbilityWis",
+  "cha": "OWSYSTEM.AbilityCha"
 };
 
-BOILERPLATE.abilityAbbreviations = {
-  "str": "BOILERPLATE.AbilityStrAbbr",
-  "dex": "BOILERPLATE.AbilityDexAbbr",
-  "con": "BOILERPLATE.AbilityConAbbr",
-  "int": "BOILERPLATE.AbilityIntAbbr",
-  "wis": "BOILERPLATE.AbilityWisAbbr",
-  "cha": "BOILERPLATE.AbilityChaAbbr"
+OWSYSTEM.abilityAbbreviations = {
+  "str": "OWSYSTEM.AbilityStrAbbr",
+  "dex": "OWSYSTEM.AbilityDexAbbr",
+  "con": "OWSYSTEM.AbilityConAbbr",
+  "int": "OWSYSTEM.AbilityIntAbbr",
+  "wis": "OWSYSTEM.AbilityWisAbbr",
+  "cha": "OWSYSTEM.AbilityChaAbbr"
 };

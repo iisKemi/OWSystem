@@ -6,7 +6,7 @@ import { OWSystemActorSheet } from "./sheets/actor-sheet.mjs";
 import { OWSystemItemSheet } from "./sheets/item-sheet.mjs";
 // Import helper/utility classes and constants.
 import { preloadHandlebarsTemplates } from "./helpers/templates.mjs";
-import { BOILERPLATE } from "./helpers/config.mjs";
+import { OWSYSTEM } from "./helpers/config.mjs";
 
 /* -------------------------------------------- */
 /*  Init Hook                                   */
@@ -23,7 +23,7 @@ Hooks.once('init', async function() {
   };
 
   // Add custom constants for configuration.
-  CONFIG.BOILERPLATE = BOILERPLATE;
+  CONFIG.OWSYSTEM = OWSYSTEM;
 
   /**
    * Set an initiative formula for the system
