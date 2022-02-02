@@ -1,18 +1,28 @@
 {
   "OWSYSTEM.AbilityStr": "Strength",
-  "OWSYSTEM.AbilityCon": "Constitution",
-  "OWSYSTEM.AbilityDex": "Dexterity",
+  "OWSYSTEM.AbilityAgi": "Agility",
   "OWSYSTEM.AbilityInt": "Intelligence",
-  "OWSYSTEM.AbilityWis": "Wisdom",
-  "OWSYSTEM.AbilityCha": "Charisma",
-
+  "OWSYSTEM.AbilityMem": "Memory",
+  
+  
   "OWSYSTEM.AbilityStrAbbr": "str",
-  "OWSYSTEM.AbilityConAbbr": "con",
-  "OWSYSTEM.AbilityDexAbbr": "dex",
+  "OWSYSTEM.AbilityAgiAbbr": "agi",
   "OWSYSTEM.AbilityIntAbbr": "int",
-  "OWSYSTEM.AbilityWisAbbr": "wis",
-  "OWSYSTEM.AbilityChaAbbr": "cha",
-
+  "OWSYSTEM.AbilityMemAbbr": "mem",
+  
+  
+  "OWSYSTEM.LifeSkillsAlch": "Alchemy",
+  "OWSYSTEM.LifeSkillsAnim": "Animal Handling",
+  "OWSYSTEM.LifeSkillsForg": "Forging",
+  "OWSYSTEM.LifeSkillsEnch": "Enchanting",
+  
+  "OWSYSTEM.LifeSkillsAlchAbbr": "alch",
+  "OWSYSTEM.LifeSkillsAnimAbbr": "anim",
+  "OWSYSTEM.LifeSkillsForgAbbr": "forg",
+  "OWSYSTEM.LifeSkillsEnchAbbr": "ench",
+  
+  
+  
   "OWSYSTEM.EffectCreate": "Create Effect",
   "OWSYSTEM.EffectToggle": "Toggle Effect",
   "OWSYSTEM.EffectEdit": "Edit Effect",

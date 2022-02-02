@@ -21,28 +21,47 @@
       "attributes": {
         "level": {
           "value": 1
+        },
+		"movement": {
+          "value": 30
+        },
+		"armor": {
+          "value": 10
+        },
+		"magArmor": {
+          "value": 5
         }
       },
       "abilities": {
         "str": {
+          "value": 14
+        },
+        "agi": {
+          "value": 10
+        },
+		"int": {
           "value": 12
         },
-        "dex": {
-          "value": 10
-        },
-        "con": {
-          "value": 10
-        },
-        "int": {
-          "value": 10
-        },
-        "wis": {
-          "value": 10
-        },
-        "cha": {
-          "value": 10
+		"mem": {
+          "value": 11
         }
-      }
+		
+      },
+	  "lifeSkills": {
+		  "alch": {
+			  "value": 1
+		  },
+		  "anim": {
+			  "value": 2
+		  },
+		  "forg": {
+			  "value": 3
+		  },
+		  "ench": {
+			  "value": 4
+		  }
+	  }
+		  
     },
     "npc": {
       "templates": ["base"],

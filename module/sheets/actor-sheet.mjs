@@ -71,7 +71,13 @@ export class OWSystemActorSheet extends ActorSheet {
     for (let [k, v] of Object.entries(context.data.abilities)) {
       v.label = game.i18n.localize(CONFIG.OWSYSTEM.abilities[k]) ?? k;
     }
+	// Handle lifeSkills score.
+    for (let [k, v] of Object.entries(context.data.lifeSkills)) {
+      v.label = game.i18n.localize(CONFIG.OWSYSTEM.lifeSkills[k]) ?? k;
+    }
+	
   }
+  
 
   /**
    * Organize and classify Items for Character sheets.

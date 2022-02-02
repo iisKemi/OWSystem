@@ -2,6 +2,11 @@
  * Extend the base Actor document by defining a custom roll data structure which is ideal for the Simple system.
  * @extends {Actor}
  */
+ 
+ 
+ //console.log() op
+ 
+ 
 export class OWSystemActor extends Actor {
 
   /** @override */
@@ -53,6 +58,20 @@ export class OWSystemActor extends Actor {
       // Calculate the modifier using d20 rules.
       ability.mod = Math.floor((ability.value - 10) / 2);
     }
+	
+	// Loop through Life Skills, and add their modifiers to our sheet output.
+    for (let [key, lifeSkills] of Object.entries(data.lifeSkills)) {
+      // Calculate the modifier using d20 rules.
+      lifeSkills.mod = Math.floor((lifeSkills.value - 10) / 2);
+    }
+	
+	// Calculate Max Health of Characters
+	data.hpMax = data.abilities.str.value * 10;
+	
+	//Calculate Max Essence of Characters
+	data.essMax = data.abilities.int.value * 20;
+	
+
   }
 
   /**
@@ -64,6 +83,8 @@ export class OWSystemActor extends Actor {
     // Make modifications to data here. For example:
     const data = actorData.data;
     data.xp = (data.cr * data.cr) * 10;
+	
+	
   }
 
   /**

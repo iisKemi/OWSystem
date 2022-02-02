@@ -18,7 +18,7 @@
           <div class="resource-content flexrow flex-center flex-between">
           <input type="text" name="data.health.value" value="{{data.health.value}}" data-dtype="Number"/>
           <span> / </span>
-          <input type="text" name="data.health.max" value="{{data.health.max}}" data-dtype="Number"/>
+          <input type="text" disabled="false" name="data.hpMax" value="{{data.hpMax}}" data-dtype="Number"/>
           </div>
         </div>
 
@@ -27,7 +27,7 @@
           <div class="resource-content flexrow flex-center flex-between">
           <input type="text" name="data.essence.value" value="{{data.essence.value}}" data-dtype="Number"/>
           <span> / </span>
-          <input type="text" name="data.essence.max" value="{{data.essence.max}}" data-dtype="Number"/>
+          <input type="text" disabled="false" name="data.essMax" value="{{data.essMax}}" data-dtype="Number"/>
           </div>
         </div>
 
@@ -35,6 +35,27 @@
           <label for="data.attributes.level.value" class="resource-label">Level</label>
           <div class="resource-content flexrow flex-center flex-between">
           <input type="text" name="data.attributes.level.value" value="{{data.attributes.level.value}}" data-dtype="Number"/>
+          </div>
+		</div>
+		  
+		  <div class="resource flex-group-center">
+          <label for="data.attributes.movement.value" class="resource-label">Movement</label>
+          <div class="resource-content flexrow flex-center flex-between">
+          <input type="text" name="data.attributes.movement.value" value="{{data.attributes.movement.value}}" data-dtype="Number"/>
+          </div>
+		</div>
+		  
+		  <div class="resource flex-group-center">
+          <label for="data.attributes.armor.value" class="resource-label">Armor</label>
+          <div class="resource-content flexrow flex-center flex-between">
+          <input type="text" name="data.attributes.armor.value" value="{{data.attributes.armor.value}}" data-dtype="Number"/>
+          </div>
+		</div>
+		  
+		  <div class="resource flex-group-center">
+          <label for="data.attributes.magArmor.value" class="resource-label">Magic Armor</label>
+          <div class="resource-content flexrow flex-center flex-between">
+          <input type="text" name="data.attributes.magArmor.value" value="{{data.attributes.magArmor.value}}" data-dtype="Number"/>
           </div>
         </div>
 
@@ -63,7 +84,13 @@
           {{!-- The grid classes are defined in scss/global/_grid.scss. To use,
           use both the "grid" and "grid-Ncol" class where "N" can be any number
           from 1 to 12 and will create that number of columns.  --}}
-          <div class="abilities flexcol">
+          
+		  {{!-- Attribute Column --}}
+		  <div class="abilities flexcol">
+		  <div class="flex-group-center">
+		  <label class="resource-label">Attributes</label>
+		  </div>
+		  
             {{#each data.abilities as |ability key|}}
             <div class="ability flexrow flex-group-center">
               <label for="data.abilities.{{key}}.value" class="resource-label rollable flexlarge align-left" data-roll="d20+@abilities.{{key}}.mod" data-label="{{ability.label}}">{{ability.label}}</label>
@@ -73,14 +100,34 @@
             {{/each}}
           </div>
         </aside>
-
+		
+		{{!-- LifeSkills Column --}}
+		<aside class="sidebar">
+		<div class="abilities flexcol">
+		<div class="flex-group-center">
+		<label class="resource-label">Life Skills</label>
+		</div>
+            {{#each data.lifeSkills as |lifeSkills key|}}
+            <div class="lifeSkills flexrow flex-group-center">
+              <label for="data.lifeSkills.{{key}}.value" class="resource-label rollable flexlarge align-left" data-roll="d20+@lifeSkills.{{key}}.mod" data-label="{{lifeSkills.label}}">{{lifeSkills.label}}</label>
+              <input type="text" name="data.lifeSkills.{{key}}.value" value="{{lifeSkills.value}}" data-dtype="Number"/>
+              <span class="lifeSkills-mod rollable" data-roll="d20+@lifeSkills.{{key}}.mod" data-label="{{lifeSkills.label}}">{{numberFormat lifeSkills.mod decimals=0 sign=true}}</span>
+            </div>
+            {{/each}}
+          </div>
+		</aside>
+		
+		
+	</section>
+	
+	
         {{!-- For the main features list, span the right two columns --}}
-        <section class="main grid-span-2">
+        <section class="main grid-span-1">
           {{!-- This is a Handlebars partial. They're stored in the `/parts` folder next to this sheet, and defined in module/helpers/templates.mjs --}}
           {{> "systems/owSystem/templates/actor/parts/actor-features.html"}}
         </section>
 
-      </section>
+
     </div>
 
     {{!-- Biography Tab --}}

@@ -168,6 +168,9 @@
   -ms-flex-align: center;
   align-items: center;
   text-align: center;
+  border: 1px solid grey;
+  padding: 4px;
+  margin: 1px;
 }
 
 .flex-group-left {

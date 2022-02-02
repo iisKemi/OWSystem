@@ -6,18 +6,32 @@ export const OWSYSTEM = {};
  */
  OWSYSTEM.abilities = {
   "str": "OWSYSTEM.AbilityStr",
-  "dex": "OWSYSTEM.AbilityDex",
-  "con": "OWSYSTEM.AbilityCon",
+  "agi": "OWSYSTEM.AbilityAgi",
   "int": "OWSYSTEM.AbilityInt",
-  "wis": "OWSYSTEM.AbilityWis",
-  "cha": "OWSYSTEM.AbilityCha"
+  "mem": "OWSYSTEM.AbilityMem",
+  "cum": "OWSYSTEM.AbilityCum"
 };
 
 OWSYSTEM.abilityAbbreviations = {
   "str": "OWSYSTEM.AbilityStrAbbr",
-  "dex": "OWSYSTEM.AbilityDexAbbr",
-  "con": "OWSYSTEM.AbilityConAbbr",
+  "agi": "OWSYSTEM.AbilityAgiAbbr",
   "int": "OWSYSTEM.AbilityIntAbbr",
-  "wis": "OWSYSTEM.AbilityWisAbbr",
-  "cha": "OWSYSTEM.AbilityChaAbbr"
+  "mem": "OWSYSTEM.AbilityMemAbbr",
+  "cum": "OWSYSTEM.AbilityCumAbbr"
+};
+
+
+
+OWSYSTEM.lifeSkills = {
+  "alch": "OWSYSTEM.LifeSkillsAlch",
+  "anim": "OWSYSTEM.LifeSkillsAnim",
+  "forg": "OWSYSTEM.LifeSkillsForg",
+  "ench": "OWSYSTEM.LifeSkillsEnch"
+};
+
+OWSYSTEM.lifeSkillsAbbreviations = {
+  "alch": "OWSYSTEM.LifeSkillsAlchAbbr",
+  "anim": "OWSYSTEM.LifeSkillsAnimAbbr",
+  "forg": "OWSYSTEM.LifeSkillsForgAbbr",
+  "ench": "OWSYSTEM.LifeSkillsEnchAbbr"
 };
