@@ -62,14 +62,14 @@ export class OWSystemActor extends Actor {
 	// Loop through Life Skills, and add their modifiers to our sheet output.
     for (let [key, lifeSkills] of Object.entries(data.lifeSkills)) {
       // Calculate the modifier using d20 rules.
-      lifeSkills.mod = Math.floor((lifeSkills.value - 10) / 2);
+      lifeSkills.mod = Math.floor(lifeSkills.value / 2);
     }
 	
 	// Calculate Max Health of Characters
-	data.hpMax = data.abilities.str.value * 10;
+	data.hpMax = data.abilities.str.value * 2;
 	
 	//Calculate Max Essence of Characters
-	data.essMax = data.abilities.int.value * 20;
+	data.essMax = data.abilities.int.value * 1;
 	
 
   }
